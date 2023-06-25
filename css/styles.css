@@ -672,8 +672,6 @@ img {
 }
 
 .modal-form {
-  display: flex;
-  flex-direction: column;
 }
 
 .modal-input {
@@ -691,6 +689,9 @@ img {
   display: flex;
   flex-direction: column;
   color: var(--customer-color);
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  margin-bottom: 4px;
 }
 
 .input-field::placeholder {
@@ -711,6 +712,7 @@ img {
   letter-spacing: 0.48px;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
+  margin-bottom: 16px;
 }
 
 .input-icon {
@@ -732,4 +734,36 @@ img {
 
 .modal-input:focus + .input-icon {
   fill: var(--logo-blue);
+}
+
+.policy-text {
+  color: var(--customer-color);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.policy-text span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-icon {
+  visibility: hidden;
+}
+
+.input-check:checked + .policy-text .check-icon {
+  visibility: visible;
+}
+
+.submit-btn {
 }
