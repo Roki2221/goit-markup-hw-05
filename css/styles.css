@@ -809,7 +809,7 @@ img {
 }
 
 .policy-text {
-  color: var(--customer-color));
+  color: var(--customer-color);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -817,15 +817,16 @@ img {
   align-items: center;
 }
 
-.policy-text span {
+.check-space {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  fill: transparent;
+  transition: background-color var(--transition), border var(--transition),
+    fill var(--transition);
+  display: inline-flex;
 }
 
 .check-icon {
@@ -834,6 +835,16 @@ img {
 
 .input-check:checked + .policy-text .check-icon {
   visibility: visible;
+}
+
+.input-check:checked + .policy-text .check-space {
+  background-color: var(--interactive-color);
+  border: none;
+  fill: var(--footer-text-color);
+}
+
+.link-policy {
+  color: var(--logo-blue);
 }
 
 .submit-btn {
