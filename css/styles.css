@@ -477,7 +477,6 @@ img {
 }
 
 .footer-input {
-  margin-right: 24px;
   padding-left: 16px;
   width: 264px;
   height: 40px;
@@ -494,12 +493,15 @@ img {
   letter-spacing: 0.48px;
 }
 
+.footre-form {
+  display: flex;
+  gap: 24px;
+}
 .subscribe-btn {
   color: var(--white-text-color);
   text-align: center;
   padding: 8px 24px;
   cursor: pointer;
-  width: 165 px;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -507,9 +509,7 @@ img {
   letter-spacing: 0.64px;
   border-radius: 4px;
   background-color: var(--logo-blue);
-  border: 0;
-}
-.btn-container {
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
