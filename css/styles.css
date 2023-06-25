@@ -737,16 +737,20 @@ img {
   background-color: transparent;
   padding: 11px 38px;
   outline: transparent;
-  transition: var(--transition);
+  transition: border-color var(--transition);
 }
 
 .inpute-name {
-  display: flex;
-  flex-direction: column;
+  display: block;
   color: var(--customer-color);
   font-size: 12px;
-  letter-spacing: 0.12px;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
   margin-bottom: 4px;
+}
+
+.coment-container {
+  margin-bottom: 16px;
 }
 
 .input-field::placeholder {
@@ -767,7 +771,6 @@ img {
   letter-spacing: 0.48px;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
-  margin-bottom: 16px;
 }
 
 .input-icon {
