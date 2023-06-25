@@ -767,10 +767,17 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.48px;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color var(--transition);
+}
+
+.input-field:focus {
+  border-color: var(--logo-blue);
 }
 
 .input-icon {
@@ -797,14 +804,17 @@ img {
   fill: var(--logo-blue);
 }
 
+.policy-container {
+  margin-bottom: 24px;
+}
+
 .policy-text {
-  color: var(--customer-color);
+  color: var(--customer-color));
   font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
 }
 
 .policy-text span {
