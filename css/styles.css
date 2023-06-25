@@ -498,6 +498,7 @@ img {
   gap: 24px;
 }
 .subscribe-btn {
+  min-width: 165px;
   color: var(--white-text-color);
   text-align: center;
   padding: 8px 24px;
@@ -513,11 +514,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
 
 .subscribe-icon {
   fill: var(--white-text-color);
+  margin-left: 16px;
 }
 
 /* PORTFOLIO */
