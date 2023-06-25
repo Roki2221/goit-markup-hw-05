@@ -827,6 +827,8 @@ img {
   transition: background-color var(--transition), border var(--transition),
     fill var(--transition);
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .check-icon {
@@ -845,7 +847,4 @@ img {
 
 .link-policy {
   color: var(--logo-blue);
-}
-
-.submit-btn {
 }
