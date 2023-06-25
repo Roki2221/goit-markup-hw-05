@@ -75,5 +75,8 @@
     <symbol id="icon-Checkbox" viewBox="0 0 32 32">
       <path stroke-width="2" d="M4 1h24a3 3 0 0 1 3 3v24a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3z"/>
     </symbol>
+    <symbol id="icon-Frame-3-1" viewBox="0 0 32 32">
+<path d="M32 2.667l-32 15 10.227 3.156 15.773-12.323-11.997 13.488 0.009 0.004-0.012-0.004v7.345l5.735-5.576 7.267 2.243 4.999-23.333z"></path>
+</symbol>
   </defs>
 </svg>

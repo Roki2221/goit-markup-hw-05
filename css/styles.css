@@ -430,6 +430,10 @@ img {
   max-width: 264px;
 }
 
+.footer-social-container {
+  margin-right: 80px;
+}
+
 .soc-subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -471,6 +475,51 @@ img {
 .footer-soc:focus {
   background-color: var(--footer-btn);
 }
+
+.footer-input {
+  margin-right: 24px;
+  padding-left: 16px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--white, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-input::placeholder {
+  color: var(--white-text-color);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.48px;
+}
+
+.subscribe-btn {
+  color: var(--white-text-color);
+  text-align: center;
+  padding: 8px 24px;
+  cursor: pointer;
+  width: 165 px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  background-color: var(--logo-blue);
+  border: 0;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.subscribe-icon {
+  fill: var(--white-text-color);
+}
+
 /* PORTFOLIO */
 
 .portfolio {
