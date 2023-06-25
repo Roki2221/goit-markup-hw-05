@@ -774,8 +774,11 @@ img {
 }
 
 .input-wrap {
-  margin-bottom: 8px;
   position: relative;
+}
+
+.input-container {
+  margin-bottom: 8px;
 }
 
 .modal-input:focus {
