@@ -781,6 +781,7 @@ img {
 }
 
 .input-icon {
+  fill: var(--title-text-color);
   position: absolute;
   left: 16px;
   top: 50%;
